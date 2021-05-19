@@ -5,7 +5,6 @@ base.sourcePath = sources/base
 base.resourcePath = resources/base
 d2air.resourcePath = resources/base;icons/60x60;resources/lowmem
 enduro.resourcePath = resources/base;resources/lowmem
-fenix5.resourcePath = resources/lowmem;resources/base
 fenix5plus.resourcePath = resources/highmem;resources/240;resources/base
 fenix5splus.resourcePath = resources/highmem;resources/240;resources/base
 fenix5xplus.resourcePath = resources/highmem;resources/240;resources/base
