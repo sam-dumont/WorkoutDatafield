@@ -42,11 +42,9 @@ class Utils {
     }
 
   function convert_speed_pace(speed, useMetric, useSpeed) {
-    System.println(useSpeed);
     if (speed != null && speed > 0) {
       var factor = useSpeed ? (useMetric ? 3.6 : 2.23694) : (useMetric ? 1000.0 : 1609.0);
       var secondsPerUnit = useSpeed ? speed * factor : factor / speed;
-      System.println(secondsPerUnit);
       if(!useSpeed){
         secondsPerUnit = (secondsPerUnit + 0.5).toNumber();
         var minutes = (secondsPerUnit / 60);
