@@ -47,11 +47,11 @@ headers = {
 }
 
 querystring = {
-    "service": f"https://apps.garmin.com/en-US/apps/{STORE_ID}",
+    "service": "https://apps.garmin.com/en-US",
     "webhost": "apps.garmin.com",
     "source": "https://apps.garmin.com/login",
-    "redirectAfterAccountLoginUrl": f"https://apps.garmin.com/en-US/apps/{STORE_ID}",
-    "redirectAfterAccountCreationUrl": f"https://apps.garmin.com/en-US/apps/{STORE_ID}",
+    "redirectAfterAccountLoginUrl": "https://apps.garmin.com/en-US",
+    "redirectAfterAccountCreationUrl": "https://apps.garmin.com/en-US",
     "gauthHost": "https://sso.garmin.com/sso",
     "locale": "en_US",
     "id": "gauth-widget",
@@ -85,6 +85,7 @@ querystring = {
     "rememberMyBrowserChecked": "false",
 }
 
+
 url = f"https://apps.garmin.com/en-US/developer/{DEV_ID}/apps/{STORE_ID}"
 
 s.get(url, headers=headers)
@@ -101,10 +102,7 @@ response = s.get(url, data=payload, params=querystring)
 soup = BeautifulSoup(response.content, "html.parser")
 
 token = soup.find_all("input", {"name": "_csrf"})[0].get("value")
-
-# print(token)
-
-# print(s.cookies.get_dict())
+query = soup.find_all("input", {"id": "queryString"})[0].get("value")
 
 payload = {
     "username": GARMIN_USERNAME,
@@ -116,12 +114,14 @@ payload = {
 
 headers = {
     "Accept-Language": "en",
-    "Sec-Fetch-Dest": "iframe",
-    "Content-Type": "application/x-www-form-urlencoded",
-    "Cache-Control": "max-age=0",
-    "Origin": "https://sso.garmin.com",
-    "Host": "sso.garmin.com",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "Cache-Control": "no-cache",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Origin": "https://sso.garmin.com",
+    "Pragma": "no-cache",
+    "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
+    "Referer": f"{url}?{query}",
+    "Sec-Fetch-Dest": "iframe",
     "Sec-Fetch-Site": "same-origin",
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
 }
