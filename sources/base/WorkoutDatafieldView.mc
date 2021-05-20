@@ -92,7 +92,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       fonts = [
         WatchUi.loadResource(Rez.Fonts.A), WatchUi.loadResource(Rez.Fonts.C),
         WatchUi.loadResource(Rez.Fonts.C), WatchUi.loadResource(Rez.Fonts.D),
-        WatchUi.loadResource(Rez.Fonts.E), WatchUi.loadResource(Rez.Fonts.F)
+        WatchUi.loadResource(Rez.Fonts.E), WatchUi.loadResource(Rez.Fonts.E)
       ];
     } else {
       fonts = [ 0, 1, 2, 3, 7, 8 ];
@@ -264,9 +264,13 @@ class WorkoutDatafieldView extends WatchUi.DataField {
     } else if(type == 1){
       showText = false;
       label = stepType == 0 ? Utils.convert_speed_pace(targetLow, useMetric, useSpeed) : targetLow;
+      labelFont = fontOffset == -4 ? fonts[1] : fonts[0];
+      labelOffset = fontOffset == -4 ? 2 : 1;
     } else if(type == 2){
       showText = false;
       label = stepType == 0 ? Utils.convert_speed_pace(targetHigh, useMetric, useSpeed) : targetHigh;
+      labelFont = fontOffset == -4 ? fonts[1] : fonts[0];
+      labelOffset = fontOffset == -4 ? 2 : 1;
     } else if(type == 3){
       var distance = Utils.format_distance(remainingDistance, useMetric);
       value = durationType == 0 ? Utils.format_duration(remainingTime) : distance[0]+distance[1];
