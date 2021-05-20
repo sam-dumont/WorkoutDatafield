@@ -81,7 +81,7 @@ jobs:
           sed -i "s/0.0.0/${{ github.event.release.tag_name }}/g" manifest.xml
           if [[ "${{ github.event.release.tag_name }}" =~ "beta" ]]; then
             sed -i "s/b8f2d496-8f34-41da-8fb9-41d8bc6ae07e/b24363f1-071a-4fe0-85a4-2816f390824f/g" manifest.xml
-            echo "app_id=b24363f1-071a-4fe0-85a4-2816f39824f0" >> $GITHUB_ENV
+            echo "app_id=b24363f1-071a-4fe0-85a4-2816f390824f" >> $GITHUB_ENV
             echo "store_id=6bf2023d-6db6-4543-8369-e35a7996f0e4" >> $GITHUB_ENV
             echo "beta_app=true" >> $GITHUB_ENV
           else
