@@ -127,6 +127,7 @@ headers = {
 }
 
 response = s.post(url, data=payload, headers=headers, params=querystring)
+print(response.text)
 print(f"Login result: {response.status_code}")
 
 ### UPLOAD FILE
