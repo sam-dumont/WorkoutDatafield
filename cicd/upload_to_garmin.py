@@ -86,7 +86,7 @@ querystring = {
 }
 
 
-url = f"https://apps.garmin.com/en-US/developer/{DEV_ID}/apps/{STORE_ID}"
+url = f"https://apps.garmin.com/en-US/developer/"
 
 s.get(url, headers=headers)
 
@@ -127,6 +127,7 @@ headers = {
 }
 
 response = s.post(url, data=payload, headers=headers, params=querystring)
+print(response.text)
 print(f"Login result: {response.status_code}")
 
 ### UPLOAD FILE
