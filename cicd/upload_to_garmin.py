@@ -86,7 +86,7 @@ querystring = {
 }
 
 
-url = f"https://apps.garmin.com/en-US/developer/{DEV_ID}/apps/{STORE_ID}"
+url = f"https://apps.garmin.com/en-US/developer/"
 
 s.get(url, headers=headers)
 
