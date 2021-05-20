@@ -104,6 +104,9 @@ soup = BeautifulSoup(response.content, "html.parser")
 token = soup.find_all("input", {"name": "_csrf"})[0].get("value")
 query = soup.find_all("input", {"id": "queryString"})[0].get("value")
 
+print(token)
+print(query)
+
 payload = {
     "username": GARMIN_USERNAME,
     "password": GARMIN_PASSWORD,
