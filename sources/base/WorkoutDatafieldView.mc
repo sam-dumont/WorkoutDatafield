@@ -323,7 +323,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
         value = Utils.convert_speed_pace(avgSpeed,useMetric,useSpeed);
       }
     } else if(type == 4){
-      var showPace = (stepType == 0 || (stepType == 99 && defaultMetric == 2));
+      var showPace = (stepType == 1 || (stepType == 99 && defaultMetric == 2));
       value = showPace ? Utils.convert_speed_pace(currentSpeed,useMetric,useSpeed) : (hr == null ? 0 : hr);
       label = showPace ? (useSpeed ? "SPEED" : "PACE") : "HR";
       if(!showPace && hr != null){
