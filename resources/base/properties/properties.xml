@@ -1,6 +1,7 @@
 <properties>
     <property id="C" type="boolean">true</property>
     <property id="D" type="boolean">true</property>
+    <property id="E" type="number">1</property>
     <property id="F" type="number">1</property>
     <property id="G" type="number">15</property>
     <property id="H" type="number">3</property>

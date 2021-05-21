@@ -7,9 +7,11 @@ using Toybox.System as Sys;
 class WorkoutDatafieldView extends WatchUi.DataField {
   hidden var alertDelay;
   hidden var alternateMetric = false;
+  hidden var avgSpeed;
   hidden var correctionTimestamp = 0;
   hidden var currentSpeed;
   hidden var elapsedDistance;
+  hidden var defaultMetric;
   hidden var durationType;
   hidden var durationValue;
   hidden var fontOffset = 0;
@@ -37,6 +39,9 @@ class WorkoutDatafieldView extends WatchUi.DataField {
   hidden var stepType;
 
   function initialize() {
+
+    defaultMetric =
+        Utils.replaceNull(Application.getApp().getProperty("E"), 1);
 
     showAlerts =
         Utils.replaceNull(Application.getApp().getProperty("C"), true);
@@ -117,6 +122,8 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       currentSpeed = info.currentSpeed;
     }
 
+    stepType = 99;
+
     if (paused != true) {
       if (info != null) {
 
@@ -127,6 +134,8 @@ class WorkoutDatafieldView extends WatchUi.DataField {
         elapsedDistance = info.elapsedDistance;
 
         shouldDisplayAlert = (stepTime > alertDelay);
+
+        avgSpeed = info.averageSpeed;
 
         if (workout != null) {
 
@@ -258,8 +267,41 @@ class WorkoutDatafieldView extends WatchUi.DataField {
         }
         dc.fillRectangle(x, y, width, height);
         dc.setColor(0xFFFFFF, -1);
-      } else {
+      } else if (stepType == 99) {
         value = "---";
+        if(defaultMetric == 1){
+          value = currentSpeed == null ? Utils.convert_speed_pace(0,useMetric,useSpeed) : Utils.convert_speed_pace(currentSpeed,useMetric,useSpeed);
+        } else if(defaultMetric == 2){
+          if(hr != null){
+            if (showColors == 1) {
+              if (hr > hrZones[4]) {
+                dc.setColor(0xFF0000, -1);
+              } else if (hr > hrZones[3]) {
+                dc.setColor(0xFF5500, -1);
+              } else if (hr > hrZones[2]) {
+                dc.setColor(0x00AA00, -1);
+              } else if (hr > hrZones[1]) {
+                dc.setColor(0x0000FF, -1);
+              } else {
+                dc.setColor(0x555555, -1);
+              }
+              dc.fillRectangle(x, y, width, height);
+              dc.setColor(0xFFFFFF, -1);
+            } else if (showColors == 2) {
+              if (hr > hrZones[4]) {
+                dc.setColor(0xFF0000, -1);
+              } else if (hr > hrZones[3]) {
+                dc.setColor(0xFF5500, -1);
+              } else if (hr > hrZones[2]) {
+                dc.setColor(0x00AA00, -1);
+              } else if (hr > hrZones[1]) {
+                dc.setColor(0x0000FF, -1);
+              } else {
+                dc.setColor(0x555555, -1);
+              }
+            }
+          }
+        }
       }
     } else if(type == 1){
       showText = false;
@@ -272,13 +314,19 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       labelFont = fontOffset == -4 ? fonts[1] : fonts[0];
       labelOffset = fontOffset == -4 ? 2 : 1;
     } else if(type == 3){
-      var distance = Utils.format_distance(remainingDistance, useMetric);
-      value = durationType == 0 ? Utils.format_duration(remainingTime) : distance[0]+distance[1];
-      label = durationType == 0 ? "REM TIME" : "REM DIST";
+      if(stepType != 99){
+        var distance = Utils.format_distance(remainingDistance, useMetric);
+        value = durationType == 0 ? Utils.format_duration(remainingTime) : distance[0]+distance[1];
+        label = durationType == 0 ? "REM TIME" : "REM DIST";
+      } else {
+        label = useSpeed ? "AVG SPEED" : "AVG PACE";
+        value = Utils.convert_speed_pace(avgSpeed,useMetric,useSpeed);
+      }
     } else if(type == 4){
-      value = stepType == 1 ? Utils.convert_speed_pace(currentSpeed,useMetric,useSpeed) : (hr == null ? 0 : hr);
-      label = stepType == 1 ? (useSpeed ? "SPEED" : "PACE") : "HR";
-      if(stepType == 0 && hr != null){
+      var showPace = (stepType == 0 || (stepType == 99 && defaultMetric == 2));
+      value = showPace ? Utils.convert_speed_pace(currentSpeed,useMetric,useSpeed) : (hr == null ? 0 : hr);
+      label = showPace ? (useSpeed ? "SPEED" : "PACE") : "HR";
+      if(!showPace && hr != null){
         if (showColors == 1) {
           if (hr > hrZones[4]) {
             dc.setColor(0xFF0000, -1);

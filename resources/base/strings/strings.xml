@@ -1,6 +1,9 @@
 <strings>
 	<string id="AppName">WorkoutDatafield</string>
 	<string id="ALERT">Display alerts?</string>
+	<string id="DEFAULT_METRIC">Default Metric</string>
+	<string id="PACE">Pace/Speed</string>
+	<string id="HR">Heartrate</string>
 	<string id="VIBRATE">Vibrate on alerts?</string>
 	<string id="SHOW_COLORS">Show Colors in Datafield</string>
 	<string id="SHOW_COLORS_1">Text + Background</string>
