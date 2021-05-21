@@ -1,10 +1,7 @@
 <strings>
-	<string id="AppName">RunPowerWorkout</string>
-	<string id="PERCENTAGE">Use Percentage?</string>
-	<string id="FTP">What is your FTP/CP?</string>
+	<string id="AppName">WorkoutDatafield</string>
 	<string id="ALERT">Display alerts?</string>
 	<string id="VIBRATE">Vibrate on alerts?</string>
-	<string id="POWER_AVERAGE">Power averaging in seconds (1-30)</string>
 	<string id="SHOW_COLORS">Show Colors in Datafield</string>
 	<string id="SHOW_COLORS_1">Text + Background</string>
 	<string id="SHOW_COLORS_2">Text Only</string>
@@ -12,9 +9,5 @@
 	<string id="USE_CUSTOM_FONTS">Use custom fonts ? (only for capability level 2 or 4)</string>
 	<string id="ALERT_DELAY">Delay between alerts.</string>
 	<string id="MAX_ALERTS">Maximum amount of alerts.</string>
-	<string id="TARGET_POWER">Target power.</string>
-	<string id="TARGET_TIME">Target time (in seconds).</string>
-	<string id="TARGET_DISTANCE">Target distance (in meters).</string>
-	<string id="TARGET_ELEVATION">Course elevation (in meters).</string>
 	<string id="USE_SPEED">Use speed instead of pace ?</string>
 </strings>
