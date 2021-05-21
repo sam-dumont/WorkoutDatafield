@@ -4,7 +4,6 @@
     <iq:application entry="WorkoutDatafieldApp" id="b8f2d496-8f34-41da-8fb9-41d8bc6ae07e" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="2.0.0" name="@Strings.AppName" type="datafield" version="0.0.0">
         <iq:products>
             <iq:product id="d2air" />
-            <iq:product id="descentmk2" />
             <iq:product id="descentmk2s" />
             <iq:product id="enduro" />
             <iq:product id="fenix5plus" />

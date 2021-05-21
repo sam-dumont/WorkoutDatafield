@@ -4,7 +4,6 @@ base.sourcePath = sources/base
 
 base.resourcePath = resources/base
 d2air.resourcePath = resources/base;icons/60x60;resources/lowmem
-descentmk2.resourcePath = resources/highmem;resources/280;resources/base
 descentmk2s.resourcePath = resources/highmem;resources/240;resources/base
 enduro.resourcePath = resources/base;resources/lowmem
 fenix5plus.resourcePath = resources/highmem;resources/240;resources/base
@@ -41,7 +40,6 @@ low_mem_excludes = medmem;highmem;lowmemlarge
 low_mem_large_excludes = medmem;highmem;lowmemlow
 high_mem_excludes = lowmem;medmem;lowmemlarge;lowmemlow
 
-descentmk2.excludeAnnotations = $(descentmk2.excludeAnnotations);$(high_mem_excludes)
 descentmk2s.excludeAnnotations = $(descentmk2s.excludeAnnotations);$(high_mem_excludes)
 d2air.excludeAnnotations = $(d2air.excludeAnnotations);$(low_mem_large_excludes)
 enduro.excludeAnnotations = $(enduro.excludeAnnotations);$(low_mem_excludes)
