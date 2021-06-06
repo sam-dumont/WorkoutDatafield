@@ -30,4 +30,7 @@
 	<setting propertyKey="@Properties.J" title="@Strings.USE_SPEED">
 		<settingConfig type="boolean" />
 	</setting>
+	<setting propertyKey="@Properties.K" title="@Strings.SHOW_LAP_DATA">
+		<settingConfig type="boolean" />
+	</setting>
 </settings>

@@ -27,6 +27,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
   hidden var showAlerts;
   hidden var showColors;
   hidden var shouldDisplayAlert;
+  hidden var stepSpeed;
   hidden var stepTime = 0;
   hidden var stepStartDistance = 0;
   hidden var stepStartTime = 0;
@@ -85,7 +86,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
   function onWorkoutStepComplete() {
     stepStartDistance = elapsedDistance;
     stepStartTime = timer;
-    
+    stepSpeed = null;
   }
 
   function onTimerReset() {
@@ -145,6 +146,11 @@ class WorkoutDatafieldView extends WatchUi.DataField {
           targetHigh = workout.step.targetValueHigh;
           targetLow = workout.step.targetValueLow;
 
+          if (stepTime > 0 && stepSpeed != null){
+            stepSpeed = ((stepSpeed * (stepTime - 1)) + currentSpeed) / (stepTime * 1.0);
+          } else {
+            stepSpeed = currentSpeed;
+          }
 
           if (stepType == 1){
               if (targetHigh < 100) {
@@ -246,7 +252,8 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       label = "";
       textFont = fonts[5];
       if(stepType == 0) {
-        value = currentSpeed == null ? Utils.convert_speed_pace(0,useMetric,useSpeed) : Utils.convert_speed_pace(currentSpeed,useMetric,useSpeed);
+        var metric = stepSpeed == null ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+        value = Utils.convert_speed_pace(metric,useMetric,useSpeed);
         if(currentSpeed < targetLow){
           dc.setColor(0x0000FF, -1);
         } else if(currentSpeed > targetHigh) {
@@ -270,7 +277,8 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       } else if (stepType == 99) {
         value = "---";
         if(defaultMetric == 1){
-          value = currentSpeed == null ? Utils.convert_speed_pace(0,useMetric,useSpeed) : Utils.convert_speed_pace(currentSpeed,useMetric,useSpeed);
+          var metric = stepSpeed == null ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+          value = Utils.convert_speed_pace(metric,useMetric,useSpeed);
         } else if(defaultMetric == 2){
           if(hr != null){
             if (showColors == 1) {
@@ -324,7 +332,8 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       }
     } else if(type == 4){
       var showPace = (stepType == 1 || (stepType == 99 && defaultMetric == 2));
-      value = showPace ? Utils.convert_speed_pace(currentSpeed,useMetric,useSpeed) : (hr == null ? 0 : hr);
+      var spdMetric = stepSpeed == null ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+      value = showPace ? Utils.convert_speed_pace(spdMetric,useMetric,useSpeed) : (hr == null ? 0 : hr);
       label = showPace ? (useSpeed ? "SPEED" : "PACE") : "HR";
       if(!showPace && hr != null){
         if (showColors == 1) {

@@ -13,4 +13,5 @@
 	<string id="ALERT_DELAY">Delay between alerts.</string>
 	<string id="MAX_ALERTS">Maximum amount of alerts.</string>
 	<string id="USE_SPEED">Use speed instead of pace ?</string>
+	<string id="SHOW_LAP_DATA">Show values averaged per lap ?</string>
 </strings>
