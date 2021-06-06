@@ -33,6 +33,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
   hidden var stepStartTime = 0;
   hidden var targetHigh = 0;
   hidden var targetLow = 0;
+  hidden var showLapData;
   hidden var timer;
   hidden var useMetric;
   hidden var useSpeed;
@@ -61,6 +62,9 @@ class WorkoutDatafieldView extends WatchUi.DataField {
 
     useSpeed =
         Utils.replaceNull(Application.getApp().getProperty("J"), false);
+
+    showLapData =
+        Utils.replaceNull(Application.getApp().getProperty("K"), true);
 
     useMetric = System.getDeviceSettings().paceUnits == System.UNIT_METRIC
                     ? true
@@ -252,7 +256,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       label = "";
       textFont = fonts[5];
       if(stepType == 0) {
-        var metric = stepSpeed == null ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+        var metric = stepSpeed == null || showLapData == false ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
         value = Utils.convert_speed_pace(metric,useMetric,useSpeed);
         if(currentSpeed < targetLow){
           dc.setColor(0x0000FF, -1);
@@ -277,7 +281,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       } else if (stepType == 99) {
         value = "---";
         if(defaultMetric == 1){
-          var metric = stepSpeed == null ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+          var metric = stepSpeed == null || showLapData == false ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
           value = Utils.convert_speed_pace(metric,useMetric,useSpeed);
         } else if(defaultMetric == 2){
           if(hr != null){
@@ -332,7 +336,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       }
     } else if(type == 4){
       var showPace = (stepType == 1 || (stepType == 99 && defaultMetric == 2));
-      var spdMetric = stepSpeed == null ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+      var spdMetric = stepSpeed == null || showLapData == false ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
       value = showPace ? Utils.convert_speed_pace(spdMetric,useMetric,useSpeed) : (hr == null ? 0 : hr);
       label = showPace ? (useSpeed ? "SPEED" : "PACE") : "HR";
       if(!showPace && hr != null){
