@@ -258,9 +258,9 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       if(stepType == 0) {
         var metric = stepSpeed == null || showLapData == false ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
         value = Utils.convert_speed_pace(metric,useMetric,useSpeed);
-        if(currentSpeed < targetLow){
+        if(metric < targetLow){
           dc.setColor(0x0000FF, -1);
-        } else if(currentSpeed > targetHigh) {
+        } else if(metric > targetHigh) {
           dc.setColor(0xAA0000, -1);
         } else {
           dc.setColor(0x00AA00, -1);
