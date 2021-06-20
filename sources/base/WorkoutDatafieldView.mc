@@ -5,7 +5,6 @@ using Toybox.AntPlus;
 using Toybox.System as Sys;
 
 class WorkoutDatafieldView extends WatchUi.DataField {
-  hidden var alertDelay;
   hidden var alternateMetric = false;
   hidden var avgSpeed;
   hidden var correctionTimestamp = 0;
@@ -17,6 +16,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
   hidden var fontOffset = 0;
   hidden var fonts;
   hidden var hr = 0;
+  hidden var stepHr;
   hidden var hrZones;
   hidden var maxAlerts;
   hidden var paused = true;
@@ -24,9 +24,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
   hidden var remainingDistance = 0;
   hidden var remainingTime = 0;
   hidden var sensor;
-  hidden var showAlerts;
   hidden var showColors;
-  hidden var shouldDisplayAlert;
   hidden var stepSpeed;
   hidden var stepTime = 0;
   hidden var stepStartDistance = 0;
@@ -37,7 +35,6 @@ class WorkoutDatafieldView extends WatchUi.DataField {
   hidden var timer;
   hidden var useMetric;
   hidden var useSpeed;
-  hidden var vibrate;
   hidden var stepType;
 
   function initialize() {
@@ -45,20 +42,8 @@ class WorkoutDatafieldView extends WatchUi.DataField {
     defaultMetric =
         Utils.replaceNull(Application.getApp().getProperty("E"), 1);
 
-    showAlerts =
-        Utils.replaceNull(Application.getApp().getProperty("C"), true);
-
-    vibrate =
-        Utils.replaceNull(Application.getApp().getProperty("D"), true);
-
     showColors =
         Utils.replaceNull(Application.getApp().getProperty("F"), 1);
-
-    alertDelay =
-        Utils.replaceNull(Application.getApp().getProperty("G"), 15);
-
-    maxAlerts =
-        Utils.replaceNull(Application.getApp().getProperty("H"), 3);
 
     useSpeed =
         Utils.replaceNull(Application.getApp().getProperty("J"), false);
@@ -138,8 +123,6 @@ class WorkoutDatafieldView extends WatchUi.DataField {
         stepTime = timer - stepStartTime;
         elapsedDistance = info.elapsedDistance;
 
-        shouldDisplayAlert = (stepTime > alertDelay);
-
         avgSpeed = info.averageSpeed;
 
         if (workout != null) {
@@ -156,6 +139,15 @@ class WorkoutDatafieldView extends WatchUi.DataField {
             stepSpeed = currentSpeed;
           }
 
+          if (stepTime > 0 && stepHr != null){
+            stepHr = ((stepHr * (stepTime - 1)) + hr) / (stepTime * 1.0);
+          } else {
+            stepHr = hr;
+          }
+
+          System.println(stepSpeed);
+          System.println(stepHr);
+
           if (stepType == 1){
               if (targetHigh < 100) {
                 targetHigh = ((targetHigh / 100.0) * hrZones[5]).toNumber();
@@ -171,7 +163,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
 
 
           if (stepType != null && durationType == 1) {
-            if (durationValue != null && remainingDistance >= 0) {
+            if (durationValue != null && elapsedDistance != null && remainingDistance >= 0) {
               remainingDistance = durationValue -
                                   (elapsedDistance.toNumber() -
                                    stepStartDistance);
@@ -181,9 +173,6 @@ class WorkoutDatafieldView extends WatchUi.DataField {
                 remainingTime >= 0) {
               remainingTime =
                   (durationValue - stepTime).toNumber();
-              if (shouldDisplayAlert && remainingTime < 20) {
-                shouldDisplayAlert = false;
-              }
             }
           }
         } 
@@ -256,7 +245,7 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       label = "";
       textFont = fonts[5];
       if(stepType == 0) {
-        var metric = stepSpeed == null || showLapData == false ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+        var metric = (stepSpeed == null || showLapData == false) ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
         value = Utils.convert_speed_pace(metric,useMetric,useSpeed);
         if(metric < targetLow){
           dc.setColor(0x0000FF, -1);
@@ -268,10 +257,10 @@ class WorkoutDatafieldView extends WatchUi.DataField {
         dc.fillRectangle(x, y, width, height);
         dc.setColor(0xFFFFFF, -1);
       } else if (stepType == 1) {
-        value = hr == null ? 0 : hr;
-        if(hr < targetLow){
+        value = (stepHr == null || showLapData == false) ? (hr == null ? 0 : hr) : (stepHr + 0.5).toNumber();
+        if(value < targetLow){
           dc.setColor(0x0000FF, -1);
-        } else if(hr > targetHigh) {
+        } else if(value > targetHigh) {
           dc.setColor(0xAA0000, -1);
         } else {
           dc.setColor(0x00AA00, -1);
@@ -281,18 +270,19 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       } else if (stepType == 99) {
         value = "---";
         if(defaultMetric == 1){
-          var metric = stepSpeed == null || showLapData == false ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+          var metric = (stepSpeed == null || showLapData == false) ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
           value = Utils.convert_speed_pace(metric,useMetric,useSpeed);
         } else if(defaultMetric == 2){
-          if(hr != null){
+          value = (stepHr == null || showLapData == false) ? (hr == null ? 0 : hr) : (stepHr + 0.5).toNumber();
+          if(value != null){
             if (showColors == 1) {
-              if (hr > hrZones[4]) {
+              if (value > hrZones[4]) {
                 dc.setColor(0xFF0000, -1);
-              } else if (hr > hrZones[3]) {
+              } else if (value > hrZones[3]) {
                 dc.setColor(0xFF5500, -1);
-              } else if (hr > hrZones[2]) {
+              } else if (value > hrZones[2]) {
                 dc.setColor(0x00AA00, -1);
-              } else if (hr > hrZones[1]) {
+              } else if (value > hrZones[1]) {
                 dc.setColor(0x0000FF, -1);
               } else {
                 dc.setColor(0x555555, -1);
@@ -300,13 +290,13 @@ class WorkoutDatafieldView extends WatchUi.DataField {
               dc.fillRectangle(x, y, width, height);
               dc.setColor(0xFFFFFF, -1);
             } else if (showColors == 2) {
-              if (hr > hrZones[4]) {
+              if (value > hrZones[4]) {
                 dc.setColor(0xFF0000, -1);
-              } else if (hr > hrZones[3]) {
+              } else if (value > hrZones[3]) {
                 dc.setColor(0xFF5500, -1);
-              } else if (hr > hrZones[2]) {
+              } else if (value > hrZones[2]) {
                 dc.setColor(0x00AA00, -1);
-              } else if (hr > hrZones[1]) {
+              } else if (value > hrZones[1]) {
                 dc.setColor(0x0000FF, -1);
               } else {
                 dc.setColor(0x555555, -1);
@@ -336,18 +326,19 @@ class WorkoutDatafieldView extends WatchUi.DataField {
       }
     } else if(type == 4){
       var showPace = (stepType == 1 || (stepType == 99 && defaultMetric == 2));
-      var spdMetric = stepSpeed == null || showLapData == false ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
-      value = showPace ? Utils.convert_speed_pace(spdMetric,useMetric,useSpeed) : (hr == null ? 0 : hr);
+      var spdMetric = (stepSpeed == null || showLapData == false) ? (currentSpeed == null ? 0 : currentSpeed) : stepSpeed;
+      var hrMetric = (stepHr == null || showLapData == false) ? (hr == null ? 0 : hr) : (stepHr + 0.5).toNumber();
+      value = showPace ? Utils.convert_speed_pace(spdMetric,useMetric,useSpeed) : hrMetric;
       label = showPace ? (useSpeed ? "SPEED" : "PACE") : "HR";
-      if(!showPace && hr != null){
+      if(!showPace && hrMetric != null){
         if (showColors == 1) {
-          if (hr > hrZones[4]) {
+          if (hrMetric > hrZones[4]) {
             dc.setColor(0xFF0000, -1);
-          } else if (hr > hrZones[3]) {
+          } else if (hrMetric > hrZones[3]) {
             dc.setColor(0xFF5500, -1);
-          } else if (hr > hrZones[2]) {
+          } else if (hrMetric > hrZones[2]) {
             dc.setColor(0x00AA00, -1);
-          } else if (hr > hrZones[1]) {
+          } else if (hrMetric > hrZones[1]) {
             dc.setColor(0x0000FF, -1);
           } else {
             dc.setColor(0x555555, -1);
@@ -355,13 +346,13 @@ class WorkoutDatafieldView extends WatchUi.DataField {
           dc.fillRectangle(x, y, width, height);
           dc.setColor(0xFFFFFF, -1);
         } else if (showColors == 2) {
-          if (hr > hrZones[4]) {
+          if (hrMetric > hrZones[4]) {
             dc.setColor(0xFF0000, -1);
-          } else if (hr > hrZones[3]) {
+          } else if (hrMetric > hrZones[3]) {
             dc.setColor(0xFF5500, -1);
-          } else if (hr > hrZones[2]) {
+          } else if (hrMetric > hrZones[2]) {
             dc.setColor(0x00AA00, -1);
-          } else if (hr > hrZones[1]) {
+          } else if (hrMetric > hrZones[1]) {
             dc.setColor(0x0000FF, -1);
           } else {
             dc.setColor(0x555555, -1);

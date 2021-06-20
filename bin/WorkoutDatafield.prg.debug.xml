@@ -8,294 +8,293 @@
         <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldApp.mc" id="5" lineNum="10" pc="268435484" symbol="onStop"/>
         <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldApp.mc" id="6" lineNum="12" pc="268435489" symbol="getInitialView"/>
         <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldApp.mc" id="6" lineNum="12" pc="268435493" symbol="getInitialView"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="43" pc="268435531" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="45" pc="268435535" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="48" pc="268435596" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="51" pc="268435654" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="54" pc="268435712" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="57" pc="268435773" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="60" pc="268435834" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="63" pc="268435895" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="66" pc="268435953" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="69" pc="268436011" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="73" pc="268436067" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="75" pc="268436079" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="77" pc="268436097" symbol="initialize"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="9" lineNum="80" pc="268436133" symbol="onTimerStart"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="9" lineNum="80" pc="268436137" symbol="onTimerStart"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="10" lineNum="82" pc="268436148" symbol="onTimerStop"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="10" lineNum="82" pc="268436152" symbol="onTimerStop"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="11" lineNum="84" pc="268436163" symbol="onTimerResume"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="11" lineNum="84" pc="268436167" symbol="onTimerResume"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="12" lineNum="86" pc="268436178" symbol="onTimerPause"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="12" lineNum="86" pc="268436182" symbol="onTimerPause"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="13" lineNum="88" pc="268436193" symbol="onTimerLap"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="90" pc="268436198" symbol="onWorkoutStepComplete"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="91" pc="268436202" symbol="onWorkoutStepComplete"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="92" pc="268436218" symbol="onWorkoutStepComplete"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="93" pc="268436234" symbol="onWorkoutStepComplete"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="15" lineNum="96" pc="268436244" symbol="onTimerReset"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="16" lineNum="112" pc="268436249" symbol="set_fonts"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="16" lineNum="112" pc="268436253" symbol="set_fonts"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="17" lineNum="119" pc="268436346" symbol="onLayout"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="17" lineNum="119" pc="268436350" symbol="onLayout"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="121" pc="268436354" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="122" pc="268436358" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="123" pc="268436369" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="126" pc="268436388" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="127" pc="268436399" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="130" pc="268436418" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="132" pc="268436431" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="133" pc="268436445" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="135" pc="268436452" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="137" pc="268436471" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="138" pc="268436493" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="139" pc="268436518" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="141" pc="268436534" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="143" pc="268436559" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="145" pc="268436575" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="147" pc="268436582" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="148" pc="268436604" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="149" pc="268436626" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="150" pc="268436648" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="151" pc="268436670" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="153" pc="268436692" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="154" pc="268436725" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="156" pc="268436783" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="159" pc="268436799" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="160" pc="268436816" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="161" pc="268436833" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="163" pc="268436882" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="165" pc="268436904" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="166" pc="268436921" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="168" pc="268436970" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="173" pc="268436995" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="174" pc="268437028" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="175" pc="268437061" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="179" pc="268437110" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="180" pc="268437143" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="182" pc="268437176" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="184" pc="268437210" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="185" pc="268437241" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="193" pc="268437269" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="194" pc="268437308" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="197" pc="268437328" symbol="compute"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="200" pc="268437332" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="201" pc="268437336" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="202" pc="268437347" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="205" pc="268437364" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="207" pc="268437376" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="208" pc="268437389" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="210" pc="268437402" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="211" pc="268437415" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="213" pc="268437441" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="217" pc="268437545" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="218" pc="268437593" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="219" pc="268437656" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="220" pc="268437728" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="221" pc="268437785" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="222" pc="268437845" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="223" pc="268437905" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="225" pc="268437962" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="227" pc="268437981" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="228" pc="268438016" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="229" pc="268438054" symbol="onUpdate"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="232" pc="268438090" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="233" pc="268438094" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="234" pc="268438110" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="235" pc="268438130" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="237" pc="268438149" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="238" pc="268438156" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="239" pc="268438163" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="240" pc="268438176" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="241" pc="268438180" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="242" pc="268438196" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="243" pc="268438212" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="244" pc="268438219" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="245" pc="268438226" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="247" pc="268438230" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="248" pc="268438241" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="249" pc="268438254" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="250" pc="268438261" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="251" pc="268438272" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="252" pc="268438282" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="255" pc="268438289" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="256" pc="268438300" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="257" pc="268438307" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="258" pc="268438323" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="259" pc="268438340" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="260" pc="268438412" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="261" pc="268438449" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="262" pc="268438469" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="263" pc="268438494" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="264" pc="268438514" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="266" pc="268438539" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="268" pc="268438561" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="269" pc="268438581" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="270" pc="268438606" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="271" pc="268438623" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="272" pc="268438654" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="273" pc="268438674" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="274" pc="268438699" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="275" pc="268438719" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="277" pc="268438744" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="279" pc="268438766" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="280" pc="268438786" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="281" pc="268438811" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="282" pc="268438828" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="283" pc="268438835" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="284" pc="268438852" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="285" pc="268438924" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="286" pc="268438964" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="287" pc="268438981" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="288" pc="268438994" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="289" pc="268439011" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="290" pc="268439037" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="291" pc="268439062" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="292" pc="268439088" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="293" pc="268439113" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="294" pc="268439139" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="295" pc="268439164" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="296" pc="268439190" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="298" pc="268439215" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="300" pc="268439237" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="301" pc="268439257" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="302" pc="268439282" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="303" pc="268439299" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="304" pc="268439325" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="305" pc="268439350" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="306" pc="268439376" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="307" pc="268439401" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="308" pc="268439427" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="309" pc="268439452" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="310" pc="268439478" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="312" pc="268439503" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="318" pc="268439540" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="319" pc="268439551" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="320" pc="268439555" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="321" pc="268439626" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="322" pc="268439676" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="323" pc="268439711" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="324" pc="268439722" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="325" pc="268439726" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="326" pc="268439797" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="327" pc="268439847" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="328" pc="268439882" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="329" pc="268439893" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="330" pc="268439910" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="331" pc="268439945" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="332" pc="268440009" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="334" pc="268440044" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="335" pc="268440070" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="337" pc="268440116" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="338" pc="268440127" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="339" pc="268440183" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="340" pc="268440255" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="341" pc="268440329" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="342" pc="268440368" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="343" pc="268440390" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="344" pc="268440407" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="345" pc="268440433" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="346" pc="268440458" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="347" pc="268440484" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="348" pc="268440509" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="349" pc="268440535" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="350" pc="268440560" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="351" pc="268440586" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="353" pc="268440611" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="355" pc="268440633" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="356" pc="268440653" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="357" pc="268440678" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="358" pc="268440695" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="359" pc="268440721" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="360" pc="268440746" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="361" pc="268440772" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="362" pc="268440797" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="363" pc="268440823" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="364" pc="268440848" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="365" pc="268440874" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="367" pc="268440899" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="371" pc="268440930" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="372" pc="268440941" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="373" pc="268440989" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="374" pc="268440999" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="375" pc="268441010" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="376" pc="268441066" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="377" pc="268441085" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="380" pc="268441095" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="382" pc="268441135" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="383" pc="268441140" symbol="drawMetric"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="3" pc="268441190" symbol="replaceNull"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="4" pc="268441194" symbol="replaceNull"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="5" pc="268441201" symbol="replaceNull"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="7" pc="268441207" symbol="replaceNull"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="11" pc="268441211" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="12" pc="268441215" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="13" pc="268441222" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="14" pc="268441229" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="15" pc="268441236" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="17" pc="268441243" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="18" pc="268441249" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="19" pc="268441256" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="20" pc="268441263" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="21" pc="268441270" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="24" pc="268441280" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="25" pc="268441294" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="27" pc="268441353" symbol="format_distance"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="32" pc="268441402" symbol="format_duration"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="33" pc="268441406" symbol="format_duration"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="34" pc="268441416" symbol="format_duration"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="35" pc="268441432" symbol="format_duration"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="37" pc="268441442" symbol="format_duration"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="38" pc="268441453" symbol="format_duration"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="40" pc="268441505" symbol="format_duration"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="44" pc="268441532" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="45" pc="268441536" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="46" pc="268441557" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="47" pc="268441603" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="48" pc="268441623" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="49" pc="268441629" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="50" pc="268441648" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="51" pc="268441658" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="52" pc="268441668" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="54" pc="268441697" symbol="convert_speed_pace"/>
-        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="57" pc="268441717" symbol="convert_speed_pace"/>
-        <entry filename="Rez" id="32" lineNum="33" pc="268441740" symbol="MainLayout"/>
-        <entry filename="Rez" id="33" lineNum="40" pc="268441753" symbol="AlertLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="40" pc="268435531" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="42" pc="268435535" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="45" pc="268435596" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="48" pc="268435657" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="51" pc="268435715" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="54" pc="268435773" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="58" pc="268435829" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="60" pc="268435841" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="8" lineNum="62" pc="268435859" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="9" lineNum="65" pc="268435895" symbol="onTimerStart"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="9" lineNum="65" pc="268435899" symbol="onTimerStart"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="10" lineNum="67" pc="268435910" symbol="onTimerStop"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="10" lineNum="67" pc="268435914" symbol="onTimerStop"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="11" lineNum="69" pc="268435925" symbol="onTimerResume"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="11" lineNum="69" pc="268435929" symbol="onTimerResume"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="12" lineNum="71" pc="268435940" symbol="onTimerPause"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="12" lineNum="71" pc="268435944" symbol="onTimerPause"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="13" lineNum="73" pc="268435955" symbol="onTimerLap"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="75" pc="268435960" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="76" pc="268435964" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="77" pc="268435980" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="14" lineNum="78" pc="268435996" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="15" lineNum="81" pc="268436006" symbol="onTimerReset"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="16" lineNum="97" pc="268436011" symbol="set_fonts"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="16" lineNum="97" pc="268436015" symbol="set_fonts"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="17" lineNum="104" pc="268436108" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="17" lineNum="104" pc="268436112" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="106" pc="268436116" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="107" pc="268436120" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="108" pc="268436131" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="111" pc="268436150" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="112" pc="268436161" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="115" pc="268436180" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="117" pc="268436193" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="118" pc="268436207" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="120" pc="268436214" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="122" pc="268436233" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="123" pc="268436255" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="124" pc="268436280" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="126" pc="268436296" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="128" pc="268436312" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="130" pc="268436319" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="131" pc="268436341" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="132" pc="268436363" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="133" pc="268436385" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="134" pc="268436407" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="136" pc="268436429" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="137" pc="268436462" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="139" pc="268436520" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="142" pc="268436536" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="143" pc="268436569" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="145" pc="268436627" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="148" pc="268436643" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="149" pc="268436669" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="151" pc="268436695" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="152" pc="268436712" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="153" pc="268436729" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="155" pc="268436778" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="157" pc="268436800" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="158" pc="268436817" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="160" pc="268436866" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="165" pc="268436891" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="166" pc="268436924" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="167" pc="268436973" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="171" pc="268437022" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="172" pc="268437055" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="174" pc="268437088" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="182" pc="268437137" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="183" pc="268437176" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="18" lineNum="186" pc="268437196" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="189" pc="268437200" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="190" pc="268437204" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="191" pc="268437215" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="194" pc="268437232" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="196" pc="268437244" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="197" pc="268437257" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="199" pc="268437270" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="200" pc="268437283" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="202" pc="268437309" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="206" pc="268437413" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="207" pc="268437461" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="208" pc="268437524" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="209" pc="268437596" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="210" pc="268437653" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="211" pc="268437713" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="212" pc="268437773" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="214" pc="268437830" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="216" pc="268437849" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="217" pc="268437884" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="19" lineNum="218" pc="268437922" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="221" pc="268437958" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="222" pc="268437962" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="223" pc="268437978" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="224" pc="268437998" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="226" pc="268438017" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="227" pc="268438024" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="228" pc="268438031" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="229" pc="268438044" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="230" pc="268438048" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="231" pc="268438064" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="232" pc="268438080" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="233" pc="268438087" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="234" pc="268438094" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="236" pc="268438098" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="237" pc="268438109" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="238" pc="268438122" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="239" pc="268438129" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="240" pc="268438140" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="241" pc="268438150" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="244" pc="268438157" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="245" pc="268438168" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="246" pc="268438175" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="247" pc="268438191" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="248" pc="268438208" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="249" pc="268438280" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="250" pc="268438317" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="251" pc="268438331" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="252" pc="268438356" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="253" pc="268438370" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="255" pc="268438395" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="257" pc="268438417" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="258" pc="268438437" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="259" pc="268438462" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="260" pc="268438479" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="261" pc="268438566" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="262" pc="268438580" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="263" pc="268438605" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="264" pc="268438619" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="266" pc="268438644" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="268" pc="268438666" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="269" pc="268438686" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="270" pc="268438711" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="271" pc="268438728" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="272" pc="268438735" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="273" pc="268438752" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="274" pc="268438824" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="275" pc="268438864" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="276" pc="268438881" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="277" pc="268438968" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="278" pc="268438975" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="279" pc="268438992" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="280" pc="268439012" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="281" pc="268439037" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="282" pc="268439057" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="283" pc="268439082" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="284" pc="268439102" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="285" pc="268439127" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="286" pc="268439147" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="288" pc="268439172" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="290" pc="268439194" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="291" pc="268439214" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="292" pc="268439239" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="293" pc="268439256" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="294" pc="268439276" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="295" pc="268439301" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="296" pc="268439321" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="297" pc="268439346" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="298" pc="268439366" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="299" pc="268439391" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="300" pc="268439411" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="302" pc="268439436" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="308" pc="268439473" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="309" pc="268439484" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="310" pc="268439488" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="311" pc="268439559" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="312" pc="268439609" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="313" pc="268439644" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="314" pc="268439655" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="315" pc="268439659" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="316" pc="268439730" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="317" pc="268439780" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="318" pc="268439815" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="319" pc="268439826" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="320" pc="268439843" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="321" pc="268439878" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="322" pc="268439942" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="324" pc="268439977" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="325" pc="268440003" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="327" pc="268440049" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="328" pc="268440060" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="329" pc="268440116" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="330" pc="268440188" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="331" pc="268440275" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="332" pc="268440322" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="333" pc="268440361" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="334" pc="268440377" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="335" pc="268440394" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="336" pc="268440414" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="337" pc="268440439" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="338" pc="268440459" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="339" pc="268440484" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="340" pc="268440504" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="341" pc="268440529" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="342" pc="268440549" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="344" pc="268440574" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="346" pc="268440596" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="347" pc="268440616" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="348" pc="268440641" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="349" pc="268440658" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="350" pc="268440678" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="351" pc="268440703" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="352" pc="268440723" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="353" pc="268440748" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="354" pc="268440768" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="355" pc="268440793" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="356" pc="268440813" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="358" pc="268440838" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="362" pc="268440869" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="363" pc="268440880" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="364" pc="268440928" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="365" pc="268440938" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="366" pc="268440949" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="367" pc="268441005" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="368" pc="268441024" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="371" pc="268441034" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="373" pc="268441074" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/WorkoutDatafieldView.mc" id="20" lineNum="374" pc="268441079" symbol="drawMetric"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="3" pc="268441129" symbol="replaceNull"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="4" pc="268441133" symbol="replaceNull"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="5" pc="268441140" symbol="replaceNull"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="22" lineNum="7" pc="268441146" symbol="replaceNull"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="11" pc="268441150" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="12" pc="268441154" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="13" pc="268441161" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="14" pc="268441168" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="15" pc="268441175" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="17" pc="268441182" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="18" pc="268441188" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="19" pc="268441195" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="20" pc="268441202" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="21" pc="268441209" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="24" pc="268441219" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="25" pc="268441233" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="24" lineNum="27" pc="268441292" symbol="format_distance"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="32" pc="268441341" symbol="format_duration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="33" pc="268441345" symbol="format_duration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="34" pc="268441355" symbol="format_duration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="35" pc="268441371" symbol="format_duration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="37" pc="268441381" symbol="format_duration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="38" pc="268441392" symbol="format_duration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="25" lineNum="40" pc="268441444" symbol="format_duration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="44" pc="268441471" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="45" pc="268441475" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="46" pc="268441496" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="47" pc="268441542" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="48" pc="268441562" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="49" pc="268441568" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="50" pc="268441587" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="51" pc="268441597" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="52" pc="268441607" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="54" pc="268441636" symbol="convert_speed_pace"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/WorkoutDatafield/sources/base/Utils.mc" id="26" lineNum="57" pc="268441656" symbol="convert_speed_pace"/>
+        <entry filename="Rez" id="32" lineNum="33" pc="268441679" symbol="MainLayout"/>
+        <entry filename="Rez" id="33" lineNum="40" pc="268441692" symbol="AlertLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="53" symbol="fontOffset"/>
+        <entry field="true" id="52" symbol="fontOffset"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry field="true" id="61" symbol="remainingTime"/>
-        <entry field="true" id="64" symbol="showColors"/>
-        <entry field="true" id="48" symbol="alertDelay"/>
+        <entry field="true" id="63" symbol="showColors"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
         <entry field="true" id="56" symbol="hrZones"/>
         <entry field="true" id="58" symbol="paused"/>
         <entry id="16" method="true" symbol="MainLayout"/>
-        <entry field="true" id="73" symbol="timer"/>
-        <entry field="true" id="72" symbol="showLapData"/>
-        <entry field="true" id="67" symbol="stepTime"/>
+        <entry field="true" id="71" symbol="timer"/>
+        <entry field="true" id="70" symbol="showLapData"/>
+        <entry field="true" id="65" symbol="stepTime"/>
         <entry id="8389748" method="true" symbol="onTimerStop"/>
         <entry field="true" id="8391585" symbol="durationValue"/>
-        <entry id="78" method="true" symbol="drawMetric"/>
+        <entry id="76" method="true" symbol="drawMetric"/>
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="41" symbol="DEFAULT_METRIC"/>
         <entry id="8389747" method="true" symbol="onTimerStart"/>
         <entry field="true" id="39" symbol="AppName"/>
-        <entry id="82" method="true" symbol="format_duration"/>
+        <entry id="80" method="true" symbol="format_duration"/>
         <entry id="11" object="true" symbol="WorkoutDatafieldView"/>
         <entry id="8389749" method="true" symbol="onTimerPause"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry field="true" id="62" symbol="sensor"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="66" symbol="stepSpeed"/>
+        <entry field="true" id="64" symbol="stepSpeed"/>
         <entry field="true" id="35" symbol="ALERT"/>
         <entry field="true" id="47" symbol="VIBRATE"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="52" symbol="defaultMetric"/>
+        <entry field="true" id="51" symbol="defaultMetric"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="8389410" module="true" symbol="AntPlus"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
@@ -303,30 +302,29 @@
         <entry id="14" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="8391584" symbol="durationType"/>
-        <entry field="true" id="74" symbol="useMetric"/>
+        <entry field="true" id="72" symbol="useMetric"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="63" symbol="showAlerts"/>
         <entry field="true" id="8388738" symbol="currentSpeed"/>
-        <entry field="true" id="55" symbol="hr"/>
-        <entry id="77" method="true" symbol="set_fonts"/>
+        <entry field="true" id="54" symbol="hr"/>
+        <entry id="75" method="true" symbol="set_fonts"/>
         <entry id="8389137" method="true" symbol="compute"/>
         <entry field="true" id="36" symbol="SHOW_COLORS_3"/>
         <entry field="true" id="40" symbol="SHOW_COLORS_2"/>
         <entry field="true" id="38" symbol="SHOW_COLORS_1"/>
         <entry field="true" id="33" symbol="SHOW_COLORS"/>
-        <entry id="81" method="true" symbol="format_distance"/>
-        <entry field="true" id="8388987" method="true" symbol="vibrate"/>
-        <entry field="true" id="54" symbol="fonts"/>
+        <entry id="79" method="true" symbol="format_distance"/>
+        <entry field="true" id="53" symbol="fonts"/>
         <entry field="true" id="45" symbol="MAX_ALERTS"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
         <entry field="true" id="43" symbol="PACE"/>
         <entry id="8390685" method="true" symbol="onWorkoutStepComplete"/>
-        <entry field="true" id="50" symbol="avgSpeed"/>
+        <entry field="true" id="49" symbol="avgSpeed"/>
         <entry field="true" id="31" symbol="Z5"/>
         <entry field="true" id="28" symbol="Z4"/>
         <entry field="true" id="25" symbol="Z3"/>
         <entry field="true" id="22" symbol="Z2"/>
         <entry field="true" id="19" symbol="Z1"/>
+        <entry field="true" id="55" symbol="stepHr"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8389752" method="true" symbol="onTimerReset"/>
         <entry field="true" id="30" symbol="P5"/>
@@ -335,12 +333,12 @@
         <entry field="true" id="21" symbol="P2"/>
         <entry field="true" id="18" symbol="P1"/>
         <entry field="true" id="59" symbol="powerAverage"/>
-        <entry field="true" id="75" symbol="useSpeed"/>
+        <entry field="true" id="73" symbol="useSpeed"/>
         <entry field="true" id="34" symbol="HR"/>
-        <entry field="true" id="69" symbol="stepStartTime"/>
+        <entry field="true" id="67" symbol="stepStartTime"/>
         <entry field="true" id="46" symbol="SHOW_LAP_DATA"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="76" symbol="stepType"/>
+        <entry field="true" id="74" symbol="stepType"/>
         <entry id="10" object="true" symbol="WorkoutDatafieldApp"/>
         <entry field="true" id="32" symbol="C5"/>
         <entry field="true" id="29" symbol="C4"/>
@@ -351,10 +349,10 @@
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="15" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry id="79" method="true" symbol="convert_speed_pace"/>
-        <entry field="true" id="51" symbol="correctionTimestamp"/>
+        <entry id="77" method="true" symbol="convert_speed_pace"/>
+        <entry field="true" id="50" symbol="correctionTimestamp"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="68" symbol="stepStartDistance"/>
+        <entry field="true" id="66" symbol="stepStartDistance"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
@@ -363,83 +361,83 @@
         <entry id="9" module="true" symbol="globals/Utils"/>
         <entry field="true" id="8388747" symbol="currentHeartRate"/>
         <entry id="8391701" method="true" symbol="setAntiAlias"/>
-        <entry field="true" id="65" symbol="shouldDisplayAlert"/>
         <entry id="8389751" method="true" symbol="onTimerLap"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="80" method="true" symbol="replaceNull"/>
+        <entry id="78" method="true" symbol="replaceNull"/>
         <entry field="true" id="57" symbol="maxAlerts"/>
-        <entry field="true" id="71" symbol="targetLow"/>
+        <entry field="true" id="69" symbol="targetLow"/>
         <entry field="true" id="8388734" symbol="elapsedDistance"/>
         <entry id="17" method="true" symbol="AlertLayout"/>
         <entry id="13" module="true" symbol="Layouts"/>
         <entry field="true" id="37" symbol="USE_CUSTOM_FONTS"/>
         <entry id="8388636" module="true" symbol="Attention"/>
         <entry field="true" id="42" symbol="USE_SPEED"/>
-        <entry field="true" id="49" symbol="alternateMetric"/>
+        <entry field="true" id="48" symbol="alternateMetric"/>
         <entry id="8389750" method="true" symbol="onTimerResume"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="44" symbol="ALERT_DELAY"/>
-        <entry field="true" id="70" symbol="targetHigh"/>
+        <entry field="true" id="68" symbol="targetHigh"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435484" name="state" stackId="1" startPc="268435479"/>
         <entry arg="true" endPc="268435489" name="state" stackId="1" startPc="268435484"/>
-        <entry arg="true" endPc="268436354" name="dc" stackId="1" startPc="268436346"/>
-        <entry endPc="268437263" name="workout" stackId="2" startPc="268436452"/>
-        <entry arg="true" endPc="268437332" name="info" stackId="1" startPc="268436354"/>
-        <entry endPc="268438089" name="height" stackId="3" startPc="268437336"/>
-        <entry endPc="268438089" name="width" stackId="2" startPc="268437336"/>
-        <entry endPc="268438089" name="bgColor" stackId="4" startPc="268437336"/>
-        <entry endPc="268438089" name="fgColor" stackId="5" startPc="268437336"/>
-        <entry endPc="268438089" name="geometry" stackId="6" startPc="268437336"/>
-        <entry arg="true" endPc="268438090" name="dc" stackId="1" startPc="268437332"/>
-        <entry endPc="268438603" name="metric" stackId="19" startPc="268438340"/>
-        <entry endPc="268438961" name="metric" stackId="20" startPc="268438852"/>
-        <entry endPc="268440041" name="distance" stackId="21" startPc="268439910"/>
-        <entry endPc="268440927" name="showPace" stackId="22" startPc="268440127"/>
-        <entry endPc="268440927" name="spdMetric" stackId="23" startPc="268440127"/>
-        <entry endPc="268441092" name="distance" stackId="24" startPc="268441010"/>
-        <entry endPc="268441189" name="textx" stackId="12" startPc="268438094"/>
-        <entry endPc="268441189" name="textFont" stackId="15" startPc="268438094"/>
-        <entry endPc="268441189" name="labelx" stackId="13" startPc="268438094"/>
-        <entry endPc="268441189" name="labelFont" stackId="14" startPc="268438094"/>
-        <entry endPc="268441189" name="showText" stackId="18" startPc="268438094"/>
-        <entry endPc="268441189" name="label" stackId="10" startPc="268438094"/>
-        <entry endPc="268441189" name="value" stackId="11" startPc="268438094"/>
-        <entry endPc="268441189" name="localOffset" stackId="16" startPc="268438094"/>
-        <entry endPc="268441189" name="labelOffset" stackId="17" startPc="268438094"/>
-        <entry arg="true" endPc="268441190" name="fgColor" stackId="9" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="width" stackId="5" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="align" stackId="7" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="type" stackId="2" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="y" stackId="4" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="bgColor" stackId="8" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="x" stackId="3" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="dc" stackId="1" startPc="268438090"/>
-        <entry arg="true" endPc="268441190" name="height" stackId="6" startPc="268438090"/>
-        <entry arg="true" endPc="268441211" name="defaultValue" stackId="2" startPc="268441190"/>
-        <entry arg="true" endPc="268441211" name="nullableValue" stackId="1" startPc="268441190"/>
-        <entry endPc="268441401" name="factor" stackId="3" startPc="268441215"/>
-        <entry endPc="268441401" name="unit" stackId="5" startPc="268441215"/>
-        <entry endPc="268441401" name="smallunitfactor" stackId="4" startPc="268441215"/>
-        <entry endPc="268441401" name="smallunit" stackId="6" startPc="268441215"/>
-        <entry arg="true" endPc="268441402" name="useMetric" stackId="2" startPc="268441211"/>
-        <entry arg="true" endPc="268441402" name="distance" stackId="1" startPc="268441211"/>
-        <entry endPc="268441531" name="ss" stackId="4" startPc="268441406"/>
-        <entry endPc="268441531" name="hh" stackId="2" startPc="268441406"/>
-        <entry endPc="268441531" name="mm" stackId="3" startPc="268441406"/>
-        <entry arg="true" endPc="268441532" name="seconds" stackId="1" startPc="268441402"/>
-        <entry endPc="268441694" name="minutes" stackId="6" startPc="268441629"/>
-        <entry endPc="268441694" name="seconds" stackId="7" startPc="268441629"/>
-        <entry endPc="268441714" name="factor" stackId="4" startPc="268441557"/>
-        <entry endPc="268441714" name="secondsPerUnit" stackId="5" startPc="268441557"/>
-        <entry arg="true" endPc="268441737" name="useSpeed" stackId="3" startPc="268441532"/>
-        <entry arg="true" endPc="268441737" name="speed" stackId="1" startPc="268441532"/>
-        <entry arg="true" endPc="268441737" name="useMetric" stackId="2" startPc="268441532"/>
-        <entry arg="true" endPc="268441753" name="dc" stackId="1" startPc="268441740"/>
-        <entry arg="true" endPc="268441766" name="dc" stackId="1" startPc="268441753"/>
+        <entry arg="true" endPc="268436116" name="dc" stackId="1" startPc="268436108"/>
+        <entry endPc="268437131" name="workout" stackId="2" startPc="268436214"/>
+        <entry arg="true" endPc="268437200" name="info" stackId="1" startPc="268436116"/>
+        <entry endPc="268437957" name="height" stackId="3" startPc="268437204"/>
+        <entry endPc="268437957" name="width" stackId="2" startPc="268437204"/>
+        <entry endPc="268437957" name="bgColor" stackId="4" startPc="268437204"/>
+        <entry endPc="268437957" name="fgColor" stackId="5" startPc="268437204"/>
+        <entry endPc="268437957" name="geometry" stackId="6" startPc="268437204"/>
+        <entry arg="true" endPc="268437958" name="dc" stackId="1" startPc="268437200"/>
+        <entry endPc="268438459" name="metric" stackId="19" startPc="268438208"/>
+        <entry endPc="268438861" name="metric" stackId="20" startPc="268438752"/>
+        <entry endPc="268439974" name="distance" stackId="21" startPc="268439843"/>
+        <entry endPc="268440866" name="showPace" stackId="22" startPc="268440060"/>
+        <entry endPc="268440866" name="hrMetric" stackId="24" startPc="268440060"/>
+        <entry endPc="268440866" name="spdMetric" stackId="23" startPc="268440060"/>
+        <entry endPc="268441031" name="distance" stackId="25" startPc="268440949"/>
+        <entry endPc="268441128" name="textx" stackId="12" startPc="268437962"/>
+        <entry endPc="268441128" name="textFont" stackId="15" startPc="268437962"/>
+        <entry endPc="268441128" name="labelx" stackId="13" startPc="268437962"/>
+        <entry endPc="268441128" name="labelFont" stackId="14" startPc="268437962"/>
+        <entry endPc="268441128" name="showText" stackId="18" startPc="268437962"/>
+        <entry endPc="268441128" name="label" stackId="10" startPc="268437962"/>
+        <entry endPc="268441128" name="value" stackId="11" startPc="268437962"/>
+        <entry endPc="268441128" name="localOffset" stackId="16" startPc="268437962"/>
+        <entry endPc="268441128" name="labelOffset" stackId="17" startPc="268437962"/>
+        <entry arg="true" endPc="268441129" name="fgColor" stackId="9" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="width" stackId="5" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="align" stackId="7" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="type" stackId="2" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="y" stackId="4" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="bgColor" stackId="8" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="x" stackId="3" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="dc" stackId="1" startPc="268437958"/>
+        <entry arg="true" endPc="268441129" name="height" stackId="6" startPc="268437958"/>
+        <entry arg="true" endPc="268441150" name="defaultValue" stackId="2" startPc="268441129"/>
+        <entry arg="true" endPc="268441150" name="nullableValue" stackId="1" startPc="268441129"/>
+        <entry endPc="268441340" name="factor" stackId="3" startPc="268441154"/>
+        <entry endPc="268441340" name="unit" stackId="5" startPc="268441154"/>
+        <entry endPc="268441340" name="smallunitfactor" stackId="4" startPc="268441154"/>
+        <entry endPc="268441340" name="smallunit" stackId="6" startPc="268441154"/>
+        <entry arg="true" endPc="268441341" name="useMetric" stackId="2" startPc="268441150"/>
+        <entry arg="true" endPc="268441341" name="distance" stackId="1" startPc="268441150"/>
+        <entry endPc="268441470" name="ss" stackId="4" startPc="268441345"/>
+        <entry endPc="268441470" name="hh" stackId="2" startPc="268441345"/>
+        <entry endPc="268441470" name="mm" stackId="3" startPc="268441345"/>
+        <entry arg="true" endPc="268441471" name="seconds" stackId="1" startPc="268441341"/>
+        <entry endPc="268441633" name="minutes" stackId="6" startPc="268441568"/>
+        <entry endPc="268441633" name="seconds" stackId="7" startPc="268441568"/>
+        <entry endPc="268441653" name="factor" stackId="4" startPc="268441496"/>
+        <entry endPc="268441653" name="secondsPerUnit" stackId="5" startPc="268441496"/>
+        <entry arg="true" endPc="268441676" name="useSpeed" stackId="3" startPc="268441471"/>
+        <entry arg="true" endPc="268441676" name="speed" stackId="1" startPc="268441471"/>
+        <entry arg="true" endPc="268441676" name="useMetric" stackId="2" startPc="268441471"/>
+        <entry arg="true" endPc="268441692" name="dc" stackId="1" startPc="268441679"/>
+        <entry arg="true" endPc="268441705" name="dc" stackId="1" startPc="268441692"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="lowmemlow" class="WorkoutDatafieldView" module="globals" symbol="set_fonts"/>
@@ -485,9 +483,9 @@
         <dataEntry label="globals/Rez/JsonData" offset="393" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="544" parentId="Rez" symbolId="Strings" type="module"/>
         <dataEntry label="globals/WorkoutDatafieldView" offset="695" parentId="globals" symbolId="WorkoutDatafieldView" type="class"/>
-        <dataEntry label="globals/Utils" offset="1110" parentId="globals" symbolId="Utils" type="class"/>
-        <dataEntry label="globals/Utils/statics" offset="1165" parentId="globals" symbolId="globals/Utils" type="class"/>
-        <dataEntry label="globals/WorkoutDatafieldApp" offset="1220" parentId="globals" symbolId="WorkoutDatafieldApp" type="class"/>
+        <dataEntry label="globals/Utils" offset="1086" parentId="globals" symbolId="Utils" type="class"/>
+        <dataEntry label="globals/Utils/statics" offset="1141" parentId="globals" symbolId="globals/Utils" type="class"/>
+        <dataEntry label="globals/WorkoutDatafieldApp" offset="1196" parentId="globals" symbolId="WorkoutDatafieldApp" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="WorkoutDatafieldApp">
